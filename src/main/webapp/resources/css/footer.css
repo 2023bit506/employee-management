@@ -1,0 +1,52 @@
+* {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        html {
+            background-color: #eaf0f2;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #2d2a30;
+            height: 80px;
+            text-align: center;
+            color: #ffffff;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        @media (max-height: 800px) {
+            footer {
+                position: static;
+            }
+
+            header {
+                padding-top: 40px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            footer {
+                font-size: 16px;
+                height: auto;
+                padding: 20px;
+            }
+        }
+
+        .footer-company-name {
+            color: #8f9296;
+            font-size: 18px;
+            font-weight: normal;
+            margin: 0;
+        }
